@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"]{
+            font-size: 40px;
+            padding: 10px;
+            height: 40px;
+            width: 90%;
+            
+        }
+        input[type="button"]{
+			
+            
+			color:white;
+			width:60px;
+			height:60px;
+			box-shadow:1px 1px 1px white;
+            border:2px solid black;
+			border-radius:5px;
+			background: rgb(34,195,195);
+			font-size:20px;
+        }
+        input[type="button"]:hover{
+			background:rgb(72, 198, 247);
+		}
+        table{
+            
+				border: 12px solid gray;
+				box-shadow:3px 4px 4px black;
+				margin-top:70px;
+				background:gray;
+				width:240px;
+        }
+        /* th, td{
+            border: none;
+            padding: 10px;
+        } */
+    </style>
+</head>
+<body>
+    <table cellpadding="1px" align="center" style="background-color: rgb(148, 148, 148) ;margin-top: 10%;">
+        <tr style="text-align: auto;height: 50px;width: 90px;">
+			<b><td colspan="4"><input type="text" value="0" readonly/></td></b>
+		</tr>
+		<tr>
+			<td><input type="button" value="C"></td>
+			<td><input type="button" value="%"></td>
+			<td><input type="button" value="&lArr;"></td>
+			<td><input type="button" value="/"></td>
+		</tr>
+        <tr>
+            <td><input type="button" value="7"></td>
+            <td><input type="button" value="8"></td>
+            <td><input type="button" value="9"></td>
+            <td><input type="button" value="*"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4"></td>
+            <td><input type="button" value="5"></td>
+            <td><input type="button" value="6"></td>
+            <td><input type="button" value="-"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1"></td>
+            <td><input type="button" value="2"></td>
+            <td><input type="button" value="3"></td>
+            <td><input type="button" value="+"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="00"></td>
+            <td><input type="button" value="0"></td>
+            <td><input type="button" value="."></td>
+            <td><input type="button" value="="></td>
+        </tr>
+    </table>
+
+</body>
+</html>
