@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, td, th{
+            border:none;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <img src="doc." alt="assignment_5" width="100%">
+    
+    <h1>Doctor Appointment Form</h1>
+    <hr color="red" size="2px">
+    <table>
+        <tr>
+            <td>Appointment Date</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Appointment Time</td>
+            <td><input type="time"></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" placeholder="First">     <input type="text" placeholder="Last"> </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>Male<input type="radio"> Female<input type="radio"></td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td><input type="tel" placeholder="#####"></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><input type="text" placeholder="city">   <input type="text" placeholder="state"></td>
+        </tr>
+        <tr>
+            <td>Your Query</td>
+            <td><textarea rows="4" cols="44"></textarea></td>
+        </tr>
+        <tr>
+            <td>Appointment Type</td>
+            <td>Select which appointment type(s) you require<br>
+             <input type="checkbox"> Cervix checkup<br>
+             <input type="checkbox"> Heart checkup<br>
+             <input type="checkbox"> Eye check-up<br>
+             <input type="checkbox"> Hearing Test</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Send"></td>
+        </tr>
+    </table>
+
+
+
+
 
 
 </body>
