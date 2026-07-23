@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h3 align="center">APPLICATION FORM</h3>
+    <form>
+    <table  width="100%" cellpadding="10px">
+        <tr>
+            <td colspan="4">Personal Details</td>
+        </tr>
+        <tr>
+            <td>Applicant's full name</td>
+            <td><select>
+                <option>--select--</option>
+                <option>Mr.</option>
+                <option>Mrs.</option>
+                <option>others</option>
+            </select> <input type="text"></td>
+            <td>Care Of</td>
+            <td> Parents<input type="radio"> Guardian<input type="radio"></td>
+        </tr>
+        <tr>
+            <td>Father's Name</td>
+            <td><select disabled>
+                <option>Mr.</option>
+            </select> <input type="text"></td>
+            <td>mother's Name</td>
+            <td><select disabled>
+                <option>Mrs.</option>
+            </select> <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>Male <input type="radio"> Female <input type="radio"> Others <input type="radio"></td>
+            <td>Date of Birth</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Marital Status</td>
+            <td><select>
+                <option>--select--</option>
+                <option>Single</option>
+                <option>Married</option>
+                <option>Divorced</option>
+                <option>Widowed</option>
+            </select></td>
+            <td>Category</td>
+            <td><select>
+                <option>--select--</option>
+                <option>General</option>
+                <option>OBC</option>
+                <option>SC</option>
+                <option>ST</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Handicapped</td>
+            <td> No <input type="radio"> Yes <input type="radio"></td>
+            <td>Ex-Serviceman</td>
+            <td> No <input type="radio"> Yes <input type="radio"></td>
+        </tr>
+        <tr>
+            <td>EWS</td>
+            <td> No <input type="radio"> Yes <input type="radio"></td>
+            <td>Religion</td>
+            <td><select>
+                <option>--select--</option>
+                <option>Hindu</option>
+                <option>Muslim</option>
+                <option>Jain</option>
+                <option>Christianity</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td colspan="4">Contact Details</td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td><input type="tel"></td>
+            <td>Email ID</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>Address Line 1</td>
+            <td><input type="text"></td>
+            <td>Address Line 2</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><input type="text"></td>
+            <td>State</td>
+            <td>
+				<select>
+					<option>--Select--</option>
+					<option value="Andhra Pradesh">Andhra Pradesh</option>
+					<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>						<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+					<option value="Assam">Assam</option>
+					<option value="Bihar">Bihar</option>
+					<option value="Chandigarh">Chandigarh</option>
+					<option value="Chhattisgarh">Chhattisgarh</option>
+					<option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+					<option value="Daman and Diu">Daman and Diu</option>
+					<option value="Delhi">Delhi</option>
+			    	<option value="Lakshadweep">Lakshadweep</option>
+					<option value="Puducherry">Puducherry</option>
+					<option value="Goa">Goa</option>
+					<option value="Gujarat">Gujarat</option>
+					<option value="Haryana">Haryana</option>
+					<option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+					<option value="Jharkhand">Jharkhand</option>
+					<option value="Karnataka">Karnataka</option>
+					<option value="Kerala">Kerala</option>
+					<option value="Madhya Pradesh">Madhya Pradesh</option>
+					<option value="Maharashtra">Maharashtra</option>
+					<option value="Manipur">Manipur</option>
+					<option value="Meghalaya">Meghalaya</option>
+					<option value="Mizoram">Mizoram</option>						<option value="Nagaland">Nagaland</option>
+					<option value="Odisha">Odisha</option>
+					<option value="Punjab">Punjab</option>
+					<option value="Rajasthan">Rajasthan</option>
+					<option value="Sikkim">Sikkim</option>
+					<option value="Tamil Nadu">Tamil Nadu</option>
+					<option value="Telangana">Telangana</option>
+					<option value="Tripura">Tripura</option>
+					<option value="Uttar Pradesh">Uttar Pradesh</option>
+					<option value="Uttarakhand">Uttarakhand</option>
+					<option value="West Bengal">West Bengal</option>
+				</select>
+			</td>
+        </tr>
+        <tr>
+            <td>Pin Code</td>
+            <td><input type="text"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="7">Qualification Details</td>
+        </tr>
+        <tr>
+            <td>Sr No.</td>
+            <td>Qualification</td>
+            <td>Board/University</td>
+            <td>Passing Year</td>
+            <td>Max Marks</td>
+            <td>Marks Obtain</td>
+            <td>Percentage</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><select>
+                <option>--select--</option>
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="Bachelor's">Bachelor's</option>
+                <option value="Master's">Master's</option>
+            </select></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><select>
+                <option>--select--</option>
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="Bachelor's">Bachelor's</option>
+                <option value="Master's">Master's</option>
+            </select></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><select>
+                <option>--select--</option>
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="Bachelor's">Bachelor's</option>
+                <option value="Master's">Master's</option>
+            </select></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><select>
+                <option>--select--</option>
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="Bachelor's">Bachelor's</option>
+                <option value="Master's">Master's</option>
+            </select></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="4">Language Knowledge</td>
+        </tr>
+        <tr>
+            <td>Language</td>
+            <td>Reading</td>
+            <td>Writing</td>
+            <td>Spoken</td>
+        </tr>
+        <tr>
+            <td>Hindi</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+         <tr>
+            <td>English</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+         <tr>
+            <td>Urdu</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td colspan="4">Identification Details</td>
+        </tr>
+        <tr>
+            <td>Aadhar Card Number</td>
+            <td><input type="text"></td>
+            <td>PAN Card Number</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Upload Photo</td>
+            <td><input type="file"></td>
+            <td>Upload Signature</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td colspan="4"><input type="submit">
+            <input type="reset" value="Back"></td>
+        </tr>
+
+
+
+    </table>
+    </form>
+</body>
+</html>
