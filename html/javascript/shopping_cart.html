@@ -28,14 +28,13 @@
 <body class="bg-light">
 
     <div class="container py-5">
-        <h1 class="text-center mb-4">Shopping Cart Demo</h1>
+        <h1 class="text-center lg-4">Shopping Cart Demo</h1>
 
         <!-- navigation bar -->
          <nav class="navbar navbar-inverse">
 		  <div class="container-fluid">
 			<div class="navbar-header">
 			    <!-- <a class="navbar-brand" href="#">MENU</a> -->
-
                 <div class="dropdown">
                 <button class="btn search btn-default dropdown-toggle"data-toggle="dropdown">
                 MENU<span class="caret"></span></button>
@@ -53,7 +52,7 @@
 
         <!-- -->
 
-        <!-- Product List -->44
+        <!-- Product List -->
         <div class="row">
         <div class="col-md-4">
             <div class="card shadow-sm">
@@ -184,7 +183,7 @@
         <div class="mt-5">
             <div class="card shadow">
                 <div class="card-header bg-dark text-white">
-                    <h4>Your Cart<img style="margin-bottom: 10px;" src="cart.jpg" height="35px" width="60px"></h4>
+                    <h4>Your Cart<img style="margin-bottom: 10px;" src="/html/images/cart.jpg" height="35px" width="60px"></h4>
                 </div>
                 <div class="card-body">
                     <ul id="cart-items" class="list-group mb-3"></ul>
@@ -218,7 +217,7 @@
 
         function decreaseQuantity(product) {
             cart[product].quantity--;
-            if (cart[product].quantity <= 0) {
+            if (cart[product].quantity == 0) {
                 delete cart[product];
             }
             displayCart();
